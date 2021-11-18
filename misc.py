@@ -9,6 +9,10 @@ Intern Exam
 import math
 
 
+def add(number1 :float, number2 :float) -> float:
+    return number1 + number2
+
+
 def truncate(value :float, ndigits :int) -> float:
     """ Truncate a float to the desired number of decimals
 
