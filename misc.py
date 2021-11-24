@@ -17,7 +17,7 @@ def truncate(value :float, ndigits :int) -> float:
     """ Truncate a float to the desired number of decimals
 
         Args: 
-            number (float): The number to be truncated
+            value (float) : The number to be truncated
             ndigits (int) : The number of digits to truncate the value
 
         Returns:
@@ -69,8 +69,8 @@ def calculate_taxes(taxes :list, total_pay :float):
     """ Calculate the annual taxes for a certain occupation
 
         Args:
-            annual_taxes (list): List of floats that represent taxes e.g.: [0.5, 0.2, 0.3]
-            total_pay (float):   Total pay for a certain occupation  e.g.: 15000
+            taxes (list):      List of floats that represent taxes e.g.: [0.5, 0.2, 0.3]
+            total_pay (float): Total pay for a certain occupation  e.g.: 15000
 
         Returns:
             values_tax (list): List of values to be taxed
